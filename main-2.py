@@ -596,7 +596,7 @@ def tarif_cmd(message):
 def buy_premium(call):
     bot.answer_callback_query(call.id)
     bot.send_message(call.message.chat.id,
-        "💎 Premium uchun admin bilan bog'laning:\n@your_admin_username")
+        "💎 Premium uchun admin bilan bog'laning:\n@usm11v")
 
 @bot.message_handler(func=lambda m: m.text == "❓ Yordam")
 def help_cmd(message):
